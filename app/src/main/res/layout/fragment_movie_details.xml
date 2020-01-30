@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.MovieDetailsFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:id="@+id/movieDetailsProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            android:layout_centerInParent="true"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/posterDetailsImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ic_image_grey_200dp"/>
+                <TextView
+                    android:id="@+id/titleDetailsTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Title123"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/yearDetailsTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Year"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rated: "
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:layout_alignParentStart="true"/>
+
+                    <TextView
+                        android:id="@+id/ratingTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rating"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:layout_marginStart="4dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Runtime: "
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:layout_alignParentStart="true"/>
+
+                    <TextView
+                        android:id="@+id/runtimeTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Runtime"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:layout_marginStart="4dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Genre: "
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:layout_alignParentStart="true"/>
+
+                    <TextView
+                        android:id="@+id/genreTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Genre"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:layout_marginStart="4dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Director: "
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:layout_alignParentStart="true"/>
+
+                    <TextView
+                        android:id="@+id/directorTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Director"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:layout_marginStart="4dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Writer: "
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:layout_alignParentStart="true"/>
+
+                    <TextView
+                        android:id="@+id/writerTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Writer"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:layout_marginStart="4dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Actors: "
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:layout_alignParentStart="true"/>
+
+                    <TextView
+                        android:id="@+id/actorsTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Actors"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:layout_marginStart="4dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Language: "
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:layout_alignParentStart="true"/>
+
+                    <TextView
+                        android:id="@+id/languageTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Language"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:layout_marginStart="4dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Description: "
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:layout_alignParentStart="true"/>
+
+                    <TextView
+                        android:id="@+id/descriptionTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="desc"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:layout_marginStart="4dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reviews:"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"/>
+
+                <ListView
+                    android:id="@+id/movieRatingsListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="8dp"
+                    />
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</FrameLayout>

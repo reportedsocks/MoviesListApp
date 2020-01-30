@@ -1329,6 +1329,7 @@ id action_mode_close_button
 id action_text
 id actions
 id activity_chooser_view_content
+id actorsTextView
 id ad_container
 id ad_image_view
 id ad_in_progress_label
@@ -1411,6 +1412,7 @@ id descriptionTextView
 id dialog_button
 id dimensions
 id direct
+id directorTextView
 id disableHome
 id donate_with
 id donate_with_google
@@ -1427,6 +1429,7 @@ id fill_horizontal
 id fill_vertical
 id forever
 id fragment_container_view_tag
+id genreTextView
 id gone
 id googleMaterial2
 id google_wallet_classic
@@ -1459,6 +1462,7 @@ id intent_extra_data
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id languageTextView
 id large_icon_uri
 id left
 id light
@@ -1472,7 +1476,6 @@ id live_stream_seek_bar
 id loading_indicator
 id logo_only
 id main
-id mapFragment
 id match_global_nicknames
 id match_parent
 id material
@@ -1480,6 +1483,8 @@ id media_actions
 id message
 id middle
 id monochrome
+id movieDetailsProgressBar
+id movieRatingsListView
 id mr_art
 id mr_cast_checkbox
 id mr_cast_close_button
@@ -1527,7 +1532,6 @@ id mr_volume_group_list
 id mr_volume_item_icon
 id mr_volume_slider
 id multiply
-id nameTextView
 id never
 id none
 id normal
@@ -1542,7 +1546,6 @@ id packed
 id parent
 id parentPanel
 id percent
-id phoneTextView
 id place_autocomplete_clear_button
 id place_autocomplete_powered_by_google
 id place_autocomplete_prediction_primary_text
@@ -1552,18 +1555,19 @@ id place_autocomplete_search_button
 id place_autocomplete_search_input
 id place_autocomplete_separator
 id plain
+id posterDetailsImageView
+id posterImageView
 id production
-id profileProgressBar
-id profileRestImageView
 id progressBar
 id progress_circular
 id progress_horizontal
 id radio
-id restImageView
+id ratingTextView
 id rfc822
 id right
 id right_icon
 id right_side
+id runtimeTextView
 id sandbox
 id satellite
 id screen
@@ -1588,7 +1592,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id siteTextView
 id slide
 id spacer
 id split_action_bar
@@ -1628,7 +1631,9 @@ id text_list_view
 id thing_proto
 id time
 id title
+id titleDetailsTextView
 id titleDividerNoCustom
+id titleTextView
 id title_template
 id title_view
 id toolbar
@@ -1647,6 +1652,9 @@ id window
 id withText
 id wrap
 id wrap_content
+id writerTextView
+id yearDetailsTextView
+id yearTextView
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer cancel_button_image_alpha
@@ -1705,9 +1713,10 @@ layout cast_mini_controller
 layout cast_tracks_chooser_dialog_layout
 layout cast_tracks_chooser_dialog_row_layout
 layout custom_dialog
-layout fragment_restaurant_details
-layout fragment_restaurant_list
+layout fragment_movie_details
+layout fragment_movies_list
 layout main_activity
+layout movies_list_item
 layout mr_cast_dialog
 layout mr_cast_group_item
 layout mr_cast_group_volume_item
@@ -1741,7 +1750,6 @@ layout place_autocomplete_fragment
 layout place_autocomplete_item_powered_by_google
 layout place_autocomplete_item_prediction
 layout place_autocomplete_progress
-layout restaurant_list_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

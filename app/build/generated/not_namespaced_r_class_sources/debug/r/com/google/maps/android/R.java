@@ -78,22 +78,22 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int adjust_height = 0x7f080040;
-        public static final int adjust_width = 0x7f080041;
-        public static final int amu_text = 0x7f080045;
-        public static final int auto = 0x7f08004c;
-        public static final int dark = 0x7f080083;
-        public static final int hybrid = 0x7f0800aa;
-        public static final int icon_only = 0x7f0800ad;
-        public static final int light = 0x7f0800bf;
-        public static final int none = 0x7f080103;
-        public static final int normal = 0x7f080104;
-        public static final int satellite = 0x7f080127;
-        public static final int standard = 0x7f080147;
-        public static final int terrain = 0x7f08015a;
-        public static final int webview = 0x7f080173;
-        public static final int wide = 0x7f080174;
-        public static final int window = 0x7f080175;
+        public static final int adjust_height = 0x7f080041;
+        public static final int adjust_width = 0x7f080042;
+        public static final int amu_text = 0x7f080046;
+        public static final int auto = 0x7f08004d;
+        public static final int dark = 0x7f080084;
+        public static final int hybrid = 0x7f0800ad;
+        public static final int icon_only = 0x7f0800b0;
+        public static final int light = 0x7f0800c3;
+        public static final int none = 0x7f080107;
+        public static final int normal = 0x7f080108;
+        public static final int satellite = 0x7f08012b;
+        public static final int standard = 0x7f08014a;
+        public static final int terrain = 0x7f08015d;
+        public static final int webview = 0x7f080178;
+        public static final int wide = 0x7f080179;
+        public static final int window = 0x7f08017a;
     }
     public static final class integer {
         private integer() {}
