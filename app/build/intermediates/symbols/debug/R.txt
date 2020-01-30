@@ -1704,8 +1704,8 @@ int layout cast_mini_controller 0x7f0b0022
 int layout cast_tracks_chooser_dialog_layout 0x7f0b0023
 int layout cast_tracks_chooser_dialog_row_layout 0x7f0b0024
 int layout custom_dialog 0x7f0b0025
-int layout fragment_restaurant_list 0x7f0b0026
-int layout fragment_restaurant_profile 0x7f0b0027
+int layout fragment_restaurant_details 0x7f0b0026
+int layout fragment_restaurant_list 0x7f0b0027
 int layout main_activity 0x7f0b0028
 int layout mr_cast_dialog 0x7f0b0029
 int layout mr_cast_group_item 0x7f0b002a

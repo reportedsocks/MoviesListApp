@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Projects\\GitTest2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs\\values-bs.xml",
+            "outputFile": "D:\\Projects\\RestaurantListApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs\\values-bs.xml",
             "map": [
                 {
                     "source": "C:\\Users\\44puk\\.gradle\\caches\\transforms-2\\files-2.1\\74c97daec71eb7ffe7d4ab8399db1f31\\mediarouter-1.0.0-alpha5\\res\\values-bs\\values-bs.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Projects\\GitTest2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
+            "outputFile": "D:\\Projects\\RestaurantListApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
             "map": [
                 {
                     "source": "C:\\Users\\44puk\\.gradle\\caches\\transforms-2\\files-2.1\\4a3dbf43e032a9258c3af38cb5c1100f\\jetified-play-services-gcm-12.0.1\\res\\values-zh-rTW\\values.xml",

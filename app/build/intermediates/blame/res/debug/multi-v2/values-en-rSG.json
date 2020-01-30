@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Projects\\GitTest2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
+            "outputFile": "D:\\Projects\\RestaurantListApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
             "map": [
                 {
                     "source": "C:\\Users\\44puk\\.gradle\\caches\\transforms-2\\files-2.1\\7913d5b9bf3ab6b32d43a6a78e347696\\jetified-play-services-wallet-12.0.1\\res\\values-en-rSG\\values.xml",

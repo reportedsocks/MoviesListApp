@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Projects\\GitTest2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\Projects\\RestaurantListApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\44puk\\.gradle\\caches\\transforms-2\\files-2.1\\3c10b30e64e1d15cb3273bacaca46c4e\\jetified-firebase-crash-12.0.1\\res\\values\\values.xml",
@@ -18,23 +18,6 @@
                         "startOffsets": "30768",
                         "endColumns": "52",
                         "endOffsets": "30816"
-                    }
-                },
-                {
-                    "source": "D:\\Projects\\GitTest2\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "157,57,105",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "198,99,151"
-                    },
-                    "to": {
-                        "startLines": "192,193,194",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "10325,10371,10418",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "10366,10413,10464"
                     }
                 },
                 {
@@ -129,23 +112,6 @@
                     }
                 },
                 {
-                    "source": "D:\\Projects\\GitTest2\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,4",
-                        "startColumns": "4,4",
-                        "startOffsets": "17,134",
-                        "endColumns": "54,69",
-                        "endOffsets": "67,199"
-                    },
-                    "to": {
-                        "startLines": "553,615",
-                        "startColumns": "4,4",
-                        "startOffsets": "34506,39996",
-                        "endColumns": "54,69",
-                        "endOffsets": "34556,40061"
-                    }
-                },
-                {
                     "source": "C:\\Users\\44puk\\.gradle\\caches\\transforms-2\\files-2.1\\74c97daec71eb7ffe7d4ab8399db1f31\\mediarouter-1.0.0-alpha5\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,79,95,98,101,108,114,117,14",
@@ -217,6 +183,25 @@
                         "endLines": "479,2352,2355,2360",
                         "endColumns": "37,12,12,12",
                         "endOffsets": "29980,158386,158546,158798"
+                    }
+                },
+                {
+                    "source": "D:\\Projects\\RestaurantListApp\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "376"
+                    },
+                    "to": {
+                        "startLines": "660",
+                        "startColumns": "4",
+                        "startOffsets": "43095",
+                        "endLines": "665",
+                        "endColumns": "12",
+                        "endOffsets": "43409"
                     }
                 },
                 {
@@ -330,6 +315,23 @@
                     }
                 },
                 {
+                    "source": "D:\\Projects\\RestaurantListApp\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "157,57,105",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "198,99,151"
+                    },
+                    "to": {
+                        "startLines": "192,193,194",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "10325,10371,10418",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "10366,10413,10464"
+                    }
+                },
+                {
                     "source": "C:\\Users\\44puk\\.gradle\\caches\\transforms-2\\files-2.1\\beebd68936f596fd603a2c322707995c\\jetified-play-services-places-12.0.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,12,13,14,15,16,17,18,19,20,21,24,25",
@@ -344,6 +346,23 @@
                         "startOffsets": "12714,12791,12878,12957,13022,13087,26236,26301,26376,26450,26518,26597,26671,26747,26824,26888,41737,41810",
                         "endColumns": "76,86,78,64,64,64,64,74,73,67,78,73,75,76,63,65,72,65",
                         "endOffsets": "12786,12873,12952,13017,13082,13147,26296,26371,26445,26513,26592,26666,26742,26819,26883,26949,41805,41871"
+                    }
+                },
+                {
+                    "source": "D:\\Projects\\RestaurantListApp\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "17,134",
+                        "endColumns": "54,69",
+                        "endOffsets": "67,199"
+                    },
+                    "to": {
+                        "startLines": "553,615",
+                        "startColumns": "4,4",
+                        "startOffsets": "34506,39996",
+                        "endColumns": "54,69",
+                        "endOffsets": "34556,40061"
                     }
                 },
                 {
@@ -511,25 +530,6 @@
                         "endLines": "494,514,3473,3477",
                         "endColumns": "56,63,24,24",
                         "endOffsets": "30873,31841,222981,223130"
-                    }
-                },
-                {
-                    "source": "D:\\Projects\\GitTest2\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "376"
-                    },
-                    "to": {
-                        "startLines": "660",
-                        "startColumns": "4",
-                        "startOffsets": "43095",
-                        "endLines": "665",
-                        "endColumns": "12",
-                        "endOffsets": "43409"
                     }
                 }
             ]

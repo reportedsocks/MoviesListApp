@@ -5545,8 +5545,8 @@ public final class R {
     public static final int cast_tracks_chooser_dialog_layout=0x7f0b0023;
     public static final int cast_tracks_chooser_dialog_row_layout=0x7f0b0024;
     public static final int custom_dialog=0x7f0b0025;
-    public static final int fragment_restaurant_list=0x7f0b0026;
-    public static final int fragment_restaurant_profile=0x7f0b0027;
+    public static final int fragment_restaurant_details=0x7f0b0026;
+    public static final int fragment_restaurant_list=0x7f0b0027;
     public static final int main_activity=0x7f0b0028;
     public static final int mr_cast_dialog=0x7f0b0029;
     public static final int mr_cast_group_item=0x7f0b002a;
