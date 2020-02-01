@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.main.MovieDetailsFragment">
+    tools:context=".ui.moviedetails.MovieDetailsFragment">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -31,16 +31,14 @@
                     android:id="@+id/titleDetailsTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Title123"
-                    android:textColor="@android:color/black"
-                    android:textSize="20sp"/>
+                    android:text="Title"
+                    style="@style/MovieTitleText"/>
                 <TextView
                     android:id="@+id/yearDetailsTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Year"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp"/>
+                    style="@style/MovieYearText"/>
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -49,8 +47,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Rated: "
-                        android:textColor="@android:color/black"
-                        android:textSize="16sp"
+                        style="@style/MovieParameterNameText"
                         android:layout_alignParentStart="true"/>
 
                     <TextView
@@ -58,8 +55,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Rating"
-                        android:textColor="@android:color/black"
-                        android:textSize="16sp"
+                        style="@style/MovieParameterValueText"
                         android:layout_marginStart="4dp"/>
                 </LinearLayout>
 
@@ -71,8 +67,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Runtime: "
-                        android:textColor="@android:color/black"
-                        android:textSize="16sp"
+                        style="@style/MovieParameterNameText"
                         android:layout_alignParentStart="true"/>
 
                     <TextView
@@ -80,8 +75,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Runtime"
-                        android:textColor="@android:color/black"
-                        android:textSize="16sp"
+                        style="@style/MovieParameterValueText"
                         android:layout_marginStart="4dp"/>
                 </LinearLayout>
                 <LinearLayout
@@ -92,8 +86,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Genre: "
-                        android:textColor="@android:color/black"
-                        android:textSize="16sp"
+                        style="@style/MovieParameterNameText"
                         android:layout_alignParentStart="true"/>
 
                     <TextView
@@ -101,8 +94,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Genre"
-                        android:textColor="@android:color/black"
-                        android:textSize="16sp"
+                        style="@style/MovieParameterValueText"
                         android:layout_marginStart="4dp"/>
                 </LinearLayout>
                 <LinearLayout
@@ -113,8 +105,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Director: "
-                        android:textColor="@android:color/black"
-                        android:textSize="16sp"
+                        style="@style/MovieParameterNameText"
                         android:layout_alignParentStart="true"/>
 
                     <TextView
@@ -122,8 +113,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Director"
-                        android:textColor="@android:color/black"
-                        android:textSize="16sp"
+                        style="@style/MovieParameterValueText"
                         android:layout_marginStart="4dp"/>
                 </LinearLayout>
                 <LinearLayout
@@ -134,8 +124,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Writer: "
-                        android:textColor="@android:color/black"
-                        android:textSize="16sp"
+                        style="@style/MovieParameterNameText"
                         android:layout_alignParentStart="true"/>
 
                     <TextView
@@ -143,8 +132,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Writer"
-                        android:textColor="@android:color/black"
-                        android:textSize="16sp"
+                        style="@style/MovieParameterValueText"
                         android:layout_marginStart="4dp"/>
                 </LinearLayout>
                 <LinearLayout
@@ -155,8 +143,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Actors: "
-                        android:textColor="@android:color/black"
-                        android:textSize="16sp"
+                        style="@style/MovieParameterNameText"
                         android:layout_alignParentStart="true"/>
 
                     <TextView
@@ -164,8 +151,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Actors"
-                        android:textColor="@android:color/black"
-                        android:textSize="16sp"
+                        style="@style/MovieParameterValueText"
                         android:layout_marginStart="4dp"/>
                 </LinearLayout>
                 <LinearLayout
@@ -176,8 +162,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Language: "
-                        android:textColor="@android:color/black"
-                        android:textSize="16sp"
+                        style="@style/MovieParameterNameText"
                         android:layout_alignParentStart="true"/>
 
                     <TextView
@@ -185,8 +170,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Language"
-                        android:textColor="@android:color/black"
-                        android:textSize="16sp"
+                        style="@style/MovieParameterValueText"
                         android:layout_marginStart="4dp"/>
                 </LinearLayout>
                 <LinearLayout
@@ -197,8 +181,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Description: "
-                        android:textColor="@android:color/black"
-                        android:textSize="16sp"
+                        style="@style/MovieParameterNameText"
                         android:layout_alignParentStart="true"/>
 
                     <TextView
@@ -206,8 +189,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="desc"
-                        android:textColor="@android:color/black"
-                        android:textSize="16sp"
+                        style="@style/MovieParameterValueText"
                         android:layout_marginStart="4dp"/>
                 </LinearLayout>
 
@@ -215,8 +197,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Reviews:"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp"/>
+                    style="@style/MovieParameterNameText"/>
 
                 <ListView
                     android:id="@+id/movieRatingsListView"

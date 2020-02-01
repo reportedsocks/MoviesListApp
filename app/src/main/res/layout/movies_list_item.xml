@@ -24,15 +24,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Title"
-            android:textColor="@android:color/black"
-            android:textSize="20sp"/>
+            style="@style/MovieTitleText"/>
         <TextView
             android:id="@+id/yearTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Year"
-            android:textColor="@android:color/black"
-            android:textSize="18sp"/>
+            style="@style/MovieYearText"/>
 
     </LinearLayout>
 

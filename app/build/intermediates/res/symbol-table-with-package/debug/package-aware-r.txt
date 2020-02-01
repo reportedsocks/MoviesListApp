@@ -1,4 +1,4 @@
-com.reportedsocks.restaurantlistapp
+com.reportedsocks.movieslistapp
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -661,6 +661,7 @@ color wallet_holo_blue_light
 color wallet_link_text_light
 color wallet_primary_text_holo_light
 color wallet_secondary_text_holo_dark
+color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1007,6 +1008,7 @@ drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_arrow_back_white_24dp
 drawable ic_audiotrack_dark
 drawable ic_audiotrack_light
 drawable ic_dialog_close_dark
@@ -1429,6 +1431,7 @@ id fill_horizontal
 id fill_vertical
 id forever
 id fragment_container_view_tag
+id fragmentsContainer
 id genreTextView
 id gone
 id googleMaterial2
@@ -1485,6 +1488,7 @@ id middle
 id monochrome
 id movieDetailsProgressBar
 id movieRatingsListView
+id moviesListContainer
 id mr_art
 id mr_cast_checkbox
 id mr_cast_close_button
@@ -1563,6 +1567,8 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratingTextView
+id reviewMarkTextView
+id reviewSourceTextView
 id rfc822
 id right
 id right_icon
@@ -1574,6 +1580,9 @@ id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id searchButton
+id searchEditText
+id searchFieldContainer
 id search_badge
 id search_bar
 id search_button
@@ -1713,9 +1722,12 @@ layout cast_mini_controller
 layout cast_tracks_chooser_dialog_layout
 layout cast_tracks_chooser_dialog_row_layout
 layout custom_dialog
+layout fragment_main
 layout fragment_movie_details
 layout fragment_movies_list
+layout fragment_search_field
 layout main_activity
+layout movie_ratings_list_item
 layout movies_list_item
 layout mr_cast_dialog
 layout mr_cast_group_item
@@ -2076,6 +2088,10 @@ style CastExpandedController
 style CastIntroOverlay
 style CastMiniController
 style CustomCastTheme
+style MovieParameterNameText
+style MovieParameterValueText
+style MovieTitleText
+style MovieYearText
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_ThemeOverlay_AppCompat

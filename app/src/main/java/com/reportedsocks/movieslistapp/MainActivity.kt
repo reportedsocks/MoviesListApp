@@ -1,8 +1,10 @@
 package com.reportedsocks.movieslistapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.reportedsocks.movieslistapp.ui.main.RestaurantListFragment
+import androidx.appcompat.app.AppCompatActivity
+import com.reportedsocks.movieslistapp.ui.MainFragment
+import kotlinx.android.synthetic.main.main_activity.*
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,9 +13,17 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.main_activity)
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
-                .replace(R.id.container, RestaurantListFragment.newInstance())
+                .replace(R.id.container, MainFragment.newInstance())
                 .commitNow()
         }
+
+        //set init toolbar parameters
+        val toolbar = toolbar
+        toolbar.setTitleTextColor(resources.getColor(R.color.white))
+        toolbar.title = "MoviesListApp"
+
+
+
     }
 
 }

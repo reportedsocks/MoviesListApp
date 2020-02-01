@@ -6,4 +6,4 @@ data class MoviePreview (val Title: String,
                          val Type: String,
                          val Poster: String )
 
-data class Result ( val Search: List<MoviePreview>, val totalResults: String, val Response: String)
+data class Result ( var Search: List<MoviePreview>, val totalResults: String, val Response: String, val Error: String)

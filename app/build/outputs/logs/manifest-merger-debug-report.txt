@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\3b7b3ac9c5f19f2701f9905e4d5fddb9\play-services-12.0.1\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\6d22b077b3eb9c3286a4bcc62fcd74b4\jetified-play-services-cast-framework-12.0.1\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.gms:play-services-cast:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\d387d76fcd9065fbeb4dac5e1430920d\jetified-play-services-cast-12.0.1\AndroidManifest.xml:17:1-24:12
@@ -154,25 +154,25 @@ MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] 
 MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\0ac1112dd444d1b40e8f98153da4d30b\play-services-vision-license-12.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\9b2dfbdf6a83366a70cf28ec08b1f284\play-services-wallet-license-12.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\e77fc956e252f40b2e580f6c3b2f12d9\play-services-wearable-license-12.0.1\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
-		ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:3:5-46
-		INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:2:1-28:12
-		INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:2:1-28:12
-		INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:4:5-66
+ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:4:5-66
 MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\1a0eca855ea72100b34238ecd0e2e424\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\1a0eca855ea72100b34238ecd0e2e424\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-analytics:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\e15d4dbd64d0f169cd05b300ac09aff5\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:23:5-67
@@ -198,9 +198,9 @@ MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\Users\44puk\
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:7:5-26:19
+ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:7:5-26:19
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\3b7b3ac9c5f19f2701f9905e4d5fddb9\play-services-12.0.1\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\3b7b3ac9c5f19f2701f9905e4d5fddb9\play-services-12.0.1\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\6d22b077b3eb9c3286a4bcc62fcd74b4\jetified-play-services-cast-framework-12.0.1\AndroidManifest.xml:7:5-12:19
@@ -404,43 +404,43 @@ MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Us
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\df2ac4fe6b88cbdd1c862077d2fdf1ec\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:14:9-40
 	android:usesCleartextTraffic
-		ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:8:9-44
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:8:9-44
 uses-library#org.apache.http.legacy
-ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:15:9-17:40
+ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:15:9-17:40
 	android:required
-		ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:17:13-37
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:16:13-50
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:16:13-50
 activity#com.reportedsocks.movieslistapp.MainActivity
-ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:19:9-25:20
+ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:19:9-25:20
 	android:name
-		ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:19:19-78
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:19:19-78
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:23:27-74
 uses-sdk
-INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml
-INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml
+INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
+INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\3b7b3ac9c5f19f2701f9905e4d5fddb9\play-services-12.0.1\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\3b7b3ac9c5f19f2701f9905e4d5fddb9\play-services-12.0.1\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\6d22b077b3eb9c3286a4bcc62fcd74b4\jetified-play-services-cast-framework-12.0.1\AndroidManifest.xml:5:5-44
@@ -741,18 +741,18 @@ MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] C:\User
 MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\9b2dfbdf6a83366a70cf28ec08b1f284\play-services-wallet-license-12.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\e77fc956e252f40b2e580f6c3b2f12d9\play-services-wearable-license-12.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\e77fc956e252f40b2e580f6c3b2f12d9\play-services-wearable-license-12.0.1\AndroidManifest.xml:20:5-44
-INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml
-INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml
+INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
+INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.google.android.gms:play-services-ads:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\aad69c60fc3f2e8518bb7bd789afdba9\jetified-play-services-ads-12.0.1\AndroidManifest.xml:23:9-49
 	android:targetSdkVersion
-		INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
 receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
 ADDED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\6d22b077b3eb9c3286a4bcc62fcd74b4\jetified-play-services-cast-framework-12.0.1\AndroidManifest.xml:8:9-100
 	android:name
@@ -937,7 +937,7 @@ ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users
 		ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\d97c3499efa6fa623e537fd4bdaa149d\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:33:13-87
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.${applicationId}
 ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\d97c3499efa6fa623e537fd4bdaa149d\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:36:13-43:29
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.com.reportedsocks.restaurantlistapp
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.com.reportedsocks.movieslistapp
 ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\d97c3499efa6fa623e537fd4bdaa149d\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:36:13-43:29
 data
 ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\d97c3499efa6fa623e537fd4bdaa149d\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:17-72
@@ -1003,7 +1003,7 @@ ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\cach
 		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:30:9-44
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:29:9-63
-permission#com.reportedsocks.restaurantlistapp.permission.C2D_MESSAGE
+permission#com.reportedsocks.movieslistapp.permission.C2D_MESSAGE
 ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:28:5-30:47
 	android:protectionLevel
 		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:30:9-44
@@ -1013,7 +1013,7 @@ uses-permission#${applicationId}.permission.C2D_MESSAGE
 ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:32:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:32:22-76
-uses-permission#com.reportedsocks.restaurantlistapp.permission.C2D_MESSAGE
+uses-permission#com.reportedsocks.movieslistapp.permission.C2D_MESSAGE
 ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:32:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:32:22-76
@@ -1027,7 +1027,7 @@ ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\cach
 		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:36:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
 ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:39:13-43:29
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.reportedsocks.restaurantlistapp
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.reportedsocks.movieslistapp
 ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:39:13-43:29
 action#com.google.android.c2dm.intent.RECEIVE
 ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:40:17-81
@@ -1037,7 +1037,7 @@ category#${applicationId}
 ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:42:17-61
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:42:27-58
-category#com.reportedsocks.restaurantlistapp
+category#com.reportedsocks.movieslistapp
 ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:42:17-61
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:42:27-58

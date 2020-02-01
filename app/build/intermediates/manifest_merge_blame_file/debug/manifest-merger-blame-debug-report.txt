@@ -1,18 +1,18 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.reportedsocks.restaurantlistapp"
+3    package="com.reportedsocks.movieslistapp"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml
+8-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml
+9-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:4:5-66
-11-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:4:22-64
+11-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:4:5-66
+11-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:4:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Optional permission for Analytics to run. -->
 12-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\1a0eca855ea72100b34238ecd0e2e424\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:24:5-79
 12-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\1a0eca855ea72100b34238ecd0e2e424\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:24:22-76
@@ -32,54 +32,54 @@
 19
 20    <permission
 20-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:28:5-30:47
-21        android:name="com.reportedsocks.restaurantlistapp.permission.C2D_MESSAGE"
+21        android:name="com.reportedsocks.movieslistapp.permission.C2D_MESSAGE"
 21-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:29:9-63
 22        android:protectionLevel="signature" />
 22-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:30:9-44
 23
-24    <uses-permission android:name="com.reportedsocks.restaurantlistapp.permission.C2D_MESSAGE" />
+24    <uses-permission android:name="com.reportedsocks.movieslistapp.permission.C2D_MESSAGE" />
 24-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:32:5-79
 24-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:32:22-76
 25
 26    <application
-26-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:7:5-26:19
+26-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:7:5-26:19
 27        android:allowBackup="true"
-27-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:9:9-35
+27-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:9:9-35
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 28-->[androidx.core:core:1.1.0] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\df2ac4fe6b88cbdd1c862077d2fdf1ec\core-1.1.0\AndroidManifest.xml:24:18-86
 29        android:debuggable="true"
 30        android:icon="@mipmap/ic_launcher"
-30-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:10:9-43
+30-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:10:9-43
 31        android:label="@string/app_name"
-31-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:11:9-41
+31-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:11:9-41
 32        android:roundIcon="@mipmap/ic_launcher_round"
-32-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:12:9-54
+32-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:12:9-54
 33        android:supportsRtl="true"
-33-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:13:9-35
+33-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:13:9-35
 34        android:testOnly="true"
 35        android:theme="@style/AppTheme"
-35-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:14:9-40
+35-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:14:9-40
 36        android:usesCleartextTraffic="true" >
-36-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:8:9-44
+36-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:8:9-44
 37        <uses-library
-37-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:15:9-17:40
+37-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:15:9-17:40
 38            android:name="org.apache.http.legacy"
-38-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:16:13-50
+38-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:16:13-50
 39            android:required="false" />
-39-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:17:13-37
+39-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:17:13-37
 40
 41        <activity android:name="com.reportedsocks.movieslistapp.MainActivity" >
-41-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:19:9-25:20
-41-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:19:19-78
+41-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:19:9-25:20
+41-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:19:19-78
 42            <intent-filter>
-42-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:20:13-24:29
+42-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:20:13-24:29
 43                <action android:name="android.intent.action.MAIN" />
-43-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:21:17-69
-43-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:21:25-66
+43-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:21:17-69
+43-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:21:25-66
 44
 45                <category android:name="android.intent.category.LAUNCHER" />
-45-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:23:17-77
-45-->D:\Projects\RestaurantListApp\app\src\main\AndroidManifest.xml:23:27-74
+45-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:23:17-77
+45-->D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:23:27-74
 46            </intent-filter>
 47        </activity>
 48
@@ -234,7 +234,7 @@
 129-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\d97c3499efa6fa623e537fd4bdaa149d\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:35:13-37
 130            <intent-filter>
 130-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\d97c3499efa6fa623e537fd4bdaa149d\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:36:13-43:29
-131                <data android:scheme="tagmanager.c.com.reportedsocks.restaurantlistapp" />
+131                <data android:scheme="tagmanager.c.com.reportedsocks.movieslistapp" />
 131-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\d97c3499efa6fa623e537fd4bdaa149d\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:17-72
 131-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\d97c3499efa6fa623e537fd4bdaa149d\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:23-69
 132
@@ -311,7 +311,7 @@
 170-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:40:17-81
 170-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:40:25-78
 171
-172                <category android:name="com.reportedsocks.restaurantlistapp" />
+172                <category android:name="com.reportedsocks.movieslistapp" />
 172-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:42:17-61
 172-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\bed8d2c9c74d16340a670f735a8a7d44\jetified-firebase-iid-12.0.1\AndroidManifest.xml:42:27-58
 173            </intent-filter>
@@ -339,7 +339,7 @@
 187-->[com.google.firebase:firebase-common:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\1de3496aede6067a6ccd79f94fb6bf00\jetified-firebase-common-12.0.1\AndroidManifest.xml:8:9-12:39
 188            android:name="com.google.firebase.provider.FirebaseInitProvider"
 188-->[com.google.firebase:firebase-common:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\1de3496aede6067a6ccd79f94fb6bf00\jetified-firebase-common-12.0.1\AndroidManifest.xml:9:13-77
-189            android:authorities="com.reportedsocks.restaurantlistapp.firebaseinitprovider"
+189            android:authorities="com.reportedsocks.movieslistapp.firebaseinitprovider"
 189-->[com.google.firebase:firebase-common:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\1de3496aede6067a6ccd79f94fb6bf00\jetified-firebase-common-12.0.1\AndroidManifest.xml:10:13-72
 190            android:exported="false"
 190-->[com.google.firebase:firebase-common:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\1de3496aede6067a6ccd79f94fb6bf00\jetified-firebase-common-12.0.1\AndroidManifest.xml:11:13-37
@@ -357,7 +357,7 @@
 197-->[com.squareup.picasso:picasso:2.71828] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\3d358a3012bd64d9a3b1ebe396690f63\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 198            android:name="com.squareup.picasso.PicassoProvider"
 198-->[com.squareup.picasso:picasso:2.71828] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\3d358a3012bd64d9a3b1ebe396690f63\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-199            android:authorities="com.reportedsocks.restaurantlistapp.com.squareup.picasso"
+199            android:authorities="com.reportedsocks.movieslistapp.com.squareup.picasso"
 199-->[com.squareup.picasso:picasso:2.71828] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\3d358a3012bd64d9a3b1ebe396690f63\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
 200            android:exported="false" />
 200-->[com.squareup.picasso:picasso:2.71828] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\3d358a3012bd64d9a3b1ebe396690f63\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
@@ -365,7 +365,7 @@
 201-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\a6511e21a7fbe5087afe20d2c7ae1b69\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
 202            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
 202-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\a6511e21a7fbe5087afe20d2c7ae1b69\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-203            android:authorities="com.reportedsocks.restaurantlistapp.lifecycle-process"
+203            android:authorities="com.reportedsocks.movieslistapp.lifecycle-process"
 203-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\a6511e21a7fbe5087afe20d2c7ae1b69\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
 204            android:exported="false"
 204-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\a6511e21a7fbe5087afe20d2c7ae1b69\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37

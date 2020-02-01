@@ -1,11 +1,24 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MovieTitleText" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="MovieYearText" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="MovieParameterNameText" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="MovieParameterValueText" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">16sp</item>
     </style>
 
 </resources>

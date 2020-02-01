@@ -24,6 +24,6 @@ data class MovieDetails ( val Title: String,
                         val BoxOffice: String,
                         val Production: String,
                         val Website: String,
-                        val Responce: String )
+                        val Response: String )
 
 data class Rating ( val Source: String, val Value: String )
