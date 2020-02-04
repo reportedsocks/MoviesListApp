@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\3b7b3ac9c5f19f2701f9905e4d5fddb9\play-services-12.0.1\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\6d22b077b3eb9c3286a4bcc62fcd74b4\jetified-play-services-cast-framework-12.0.1\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.gms:play-services-cast:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\d387d76fcd9065fbeb4dac5e1430920d\jetified-play-services-cast-12.0.1\AndroidManifest.xml:17:1-24:12
@@ -154,20 +154,20 @@ MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] 
 MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\0ac1112dd444d1b40e8f98153da4d30b\play-services-vision-license-12.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\9b2dfbdf6a83366a70cf28ec08b1f284\play-services-wallet-license-12.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\e77fc956e252f40b2e580f6c3b2f12d9\play-services-wearable-license-12.0.1\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:3:5-46
 		INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:2:11-69
@@ -200,7 +200,7 @@ MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\44puk\.gradle\cac
 	android:name
 		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:7:5-26:19
+ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:7:5-27:19
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\3b7b3ac9c5f19f2701f9905e4d5fddb9\play-services-12.0.1\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\3b7b3ac9c5f19f2701f9905e4d5fddb9\play-services-12.0.1\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\6d22b077b3eb9c3286a4bcc62fcd74b4\jetified-play-services-cast-framework-12.0.1\AndroidManifest.xml:7:5-12:19
@@ -404,39 +404,41 @@ MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Us
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\44puk\.gradle\caches\transforms-2\files-2.1\df2ac4fe6b88cbdd1c862077d2fdf1ec\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:15:9-40
 	android:usesCleartextTraffic
-		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:8:9-44
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:8:9-30
 uses-library#org.apache.http.legacy
-ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:15:9-17:40
+ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:16:9-18:40
 	android:required
-		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:17:13-37
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:16:13-50
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:17:13-50
 activity#com.reportedsocks.movieslistapp.MainActivity
-ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:19:9-25:20
+ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:20:9-26:20
 	android:name
-		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:19:19-78
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:20:19-78
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml:24:27-74
 uses-sdk
 INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Projects\MoviesListApp\app\src\main\AndroidManifest.xml

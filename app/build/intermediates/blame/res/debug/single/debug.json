@@ -516,12 +516,12 @@
         "source": "C:\\Users\\44puk\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Projects\\MoviesListApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_media_stop_light.png.flat",
-        "source": "C:\\Users\\44puk\\.gradle\\caches\\transforms-2\\files-2.1\\74c97daec71eb7ffe7d4ab8399db1f31\\mediarouter-1.0.0-alpha5\\res\\drawable-xxhdpi-v4\\ic_media_stop_light.png"
-    },
-    {
         "merged": "D:\\Projects\\MoviesListApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_group_expand_12.png.flat",
         "source": "C:\\Users\\44puk\\.gradle\\caches\\transforms-2\\files-2.1\\74c97daec71eb7ffe7d4ab8399db1f31\\mediarouter-1.0.0-alpha5\\res\\drawable-xxxhdpi-v4\\ic_group_expand_12.png"
+    },
+    {
+        "merged": "D:\\Projects\\MoviesListApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_media_stop_light.png.flat",
+        "source": "C:\\Users\\44puk\\.gradle\\caches\\transforms-2\\files-2.1\\74c97daec71eb7ffe7d4ab8399db1f31\\mediarouter-1.0.0-alpha5\\res\\drawable-xxhdpi-v4\\ic_media_stop_light.png"
     },
     {
         "merged": "D:\\Projects\\MoviesListApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_small_material.xml.flat",
@@ -734,6 +734,10 @@
     {
         "merged": "D:\\Projects\\MoviesListApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_track_material.xml.flat",
         "source": "C:\\Users\\44puk\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\Projects\\MoviesListApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_wrapper.xml.flat",
+        "source": "D:\\Projects\\MoviesListApp\\app\\src\\main\\res\\layout\\fragment_wrapper.xml"
     },
     {
         "merged": "D:\\Projects\\MoviesListApp\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_tooltip_exit.xml.flat",
@@ -2314,10 +2318,6 @@
     {
         "merged": "D:\\Projects\\MoviesListApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\44puk\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
-    },
-    {
-        "merged": "D:\\Projects\\MoviesListApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main.xml.flat",
-        "source": "D:\\Projects\\MoviesListApp\\app\\src\\main\\res\\layout\\fragment_main.xml"
     },
     {
         "merged": "D:\\Projects\\MoviesListApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",

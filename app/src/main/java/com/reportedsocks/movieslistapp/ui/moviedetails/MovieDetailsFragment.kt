@@ -1,6 +1,7 @@
 package com.reportedsocks.movieslistapp.ui.moviedetails
 
 
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -9,12 +10,14 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.reportedsocks.movieslistapp.MyApp
 import com.reportedsocks.movieslistapp.R
 import com.reportedsocks.movieslistapp.data.MovieDetails
 import com.reportedsocks.movieslistapp.ui.MainViewModel
 import com.reportedsocks.movieslistapp.utils.Utils
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.fragment_movie_details.*
+import javax.inject.Inject
 
 
 class MovieDetailsFragment : Fragment() {
@@ -24,7 +27,15 @@ class MovieDetailsFragment : Fragment() {
             MovieDetailsFragment()
     }
 
+    @Inject lateinit var viewModelFactory: ViewModelProvider.Factory
+    private lateinit var viewModel: MainViewModel
     private lateinit var toolbar: androidx.appcompat.widget.Toolbar
+
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        // Injecting viewModelFactory
+        (activity?.applicationContext as MyApp).appComponent.inject(this)
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -43,12 +54,13 @@ class MovieDetailsFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        val model: MainViewModel = ViewModelProvider(this).get<MainViewModel>(
-            MainViewModel::class.java)
+
+        viewModel = ViewModelProvider(this, viewModelFactory).get(MainViewModel::class.java)
+
         val bundle = getArguments()
         val id = bundle?.getString("id")?:"1"
 
-        model.getMovie(id)?.observe(viewLifecycleOwner, Observer<MovieDetails>{ movie ->
+        viewModel.getMovie(id)?.observe(viewLifecycleOwner, Observer<MovieDetails>{ movie ->
 
             if(movie.Response == "True"){
                 // update UI

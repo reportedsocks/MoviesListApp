@@ -2,7 +2,7 @@ package com.reportedsocks.movieslistapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.reportedsocks.movieslistapp.ui.MainFragment
+import com.reportedsocks.movieslistapp.ui.movieslist.WrapperFragment
 import kotlinx.android.synthetic.main.main_activity.*
 
 
@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.main_activity)
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
-                .replace(R.id.container, MainFragment.newInstance())
+                .replace(R.id.container, WrapperFragment.newInstance())
                 .commitNow()
         }
 

@@ -5,14 +5,15 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.reportedsocks.movieslistapp.data.MovieDetails
 import com.reportedsocks.movieslistapp.data.MoviePreview
-import com.reportedsocks.movieslistapp.network.SearchRepositoryProvider
+import com.reportedsocks.movieslistapp.network.SearchRepository
 import com.reportedsocks.movieslistapp.ui.movieslist.SingleLiveEvent
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
+import javax.inject.Inject
+import javax.inject.Singleton
 
-
-class MainViewModel: ViewModel() {
-    private val repository = SearchRepositoryProvider.provideSearchRepository()
+@Singleton
+class MainViewModel @Inject constructor( val searchRepository: SearchRepository) : ViewModel() {
 
     //observable event for RecyclerView item click
     internal val selectItemEvent = SingleLiveEvent<MoviePreview?>()
@@ -21,6 +22,7 @@ class MainViewModel: ViewModel() {
     private var movies: MutableLiveData<List<MoviePreview>>? = null
     private var movie: MutableLiveData<MovieDetails>? = null
     private var error: MutableLiveData<String>? = null
+    private var shouldEnableSearchButton: MutableLiveData<Boolean>? = null
 
     //parameters of last search
     private var search: String? = null
@@ -50,22 +52,35 @@ class MainViewModel: ViewModel() {
     fun getMovie(id: String): LiveData<MovieDetails>? {
         if (movie == null) {
             movie = MutableLiveData()
-            loadMovie(id)
         }
+        loadMovie(id)
         return movie
     }
 
+    fun getShoulEnableSearchButton(): LiveData<Boolean>? {
+        if (shouldEnableSearchButton == null) {
+            shouldEnableSearchButton = MutableLiveData()
+        }
+        return shouldEnableSearchButton
+    }
+
     fun loadMovies( s: String ) {
-        repository.getMovies( s )
+        searchRepository.getMovies( s )
             .observeOn(AndroidSchedulers.mainThread())
             .subscribeOn(Schedulers.io())
             .subscribe ({ result ->
                 if(result.Response == "True"){
+
                     // update movies list
                     movies?.postValue(result.Search)
+
                     //save search parameters
                     search = s
                     page = 2
+
+                    //enable search button
+                    shouldEnableSearchButton?.postValue(true)
+
                 } else {
                     // update error
                     error?.postValue(result.Error)
@@ -76,8 +91,7 @@ class MainViewModel: ViewModel() {
     }
 
     private fun loadMovie(id: String) {
-
-        repository.getMovieById( id )
+        searchRepository.getMovieById( id )
             .observeOn(AndroidSchedulers.mainThread())
             .subscribeOn(Schedulers.io())
             .subscribe({  result ->
@@ -91,7 +105,7 @@ class MainViewModel: ViewModel() {
         // save current movies list
         val prevList: MutableList<MoviePreview> = movies!!.value!!.toMutableList()
 
-        repository.getMoviesById( search?:"default", page.toString() )
+        searchRepository.getMoviesById( search?:"default", page.toString() )
             .observeOn(AndroidSchedulers.mainThread())
             .subscribeOn(Schedulers.io())
             .subscribe ({ result ->

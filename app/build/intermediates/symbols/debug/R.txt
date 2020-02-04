@@ -1721,10 +1721,10 @@ int layout cast_mini_controller 0x7f0b0022
 int layout cast_tracks_chooser_dialog_layout 0x7f0b0023
 int layout cast_tracks_chooser_dialog_row_layout 0x7f0b0024
 int layout custom_dialog 0x7f0b0025
-int layout fragment_main 0x7f0b0026
-int layout fragment_movie_details 0x7f0b0027
-int layout fragment_movies_list 0x7f0b0028
-int layout fragment_search_field 0x7f0b0029
+int layout fragment_movie_details 0x7f0b0026
+int layout fragment_movies_list 0x7f0b0027
+int layout fragment_search_field 0x7f0b0028
+int layout fragment_wrapper 0x7f0b0029
 int layout main_activity 0x7f0b002a
 int layout movie_ratings_list_item 0x7f0b002b
 int layout movies_list_item 0x7f0b002c
