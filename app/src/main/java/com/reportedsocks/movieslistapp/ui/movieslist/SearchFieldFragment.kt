@@ -50,7 +50,7 @@ class SearchFieldFragment : Fragment(){
         viewModel = ViewModelProvider(this, viewModelFactory).get(MainViewModel::class.java)
 
         // enable search button after request was complete
-        viewModel.getShoulEnableSearchButton()?.observe(viewLifecycleOwner, Observer <Boolean> {
+        viewModel.getShouldEnableSearchButton()?.observe(viewLifecycleOwner, Observer <Boolean> {
             searchButton.isEnabled = it
         })
 

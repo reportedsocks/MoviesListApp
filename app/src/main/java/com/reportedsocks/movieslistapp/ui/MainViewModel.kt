@@ -49,7 +49,7 @@ class MainViewModel @Inject constructor( val searchRepository: SearchRepository)
         error = null
     }
 
-    fun getMovie(id: String): LiveData<MovieDetails>? {
+    fun getMovie( id: String ): LiveData<MovieDetails>? {
         if (movie == null) {
             movie = MutableLiveData()
         }
@@ -57,7 +57,7 @@ class MainViewModel @Inject constructor( val searchRepository: SearchRepository)
         return movie
     }
 
-    fun getShoulEnableSearchButton(): LiveData<Boolean>? {
+    fun getShouldEnableSearchButton(): LiveData<Boolean>? {
         if (shouldEnableSearchButton == null) {
             shouldEnableSearchButton = MutableLiveData()
         }
@@ -90,7 +90,7 @@ class MainViewModel @Inject constructor( val searchRepository: SearchRepository)
             })
     }
 
-    private fun loadMovie(id: String) {
+    private fun loadMovie( id: String ) {
         searchRepository.getMovieById( id )
             .observeOn(AndroidSchedulers.mainThread())
             .subscribeOn(Schedulers.io())
